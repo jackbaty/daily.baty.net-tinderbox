@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<title>Jack Baty Daily - Daily Posts</title>
+<link>https://daily.baty.net</link>
+<description>A daily weblog by Jack Baty</description>
+	<item>
+<title>Thursday, February 22, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/22.html</link>
+<pubDate>Thu, 22 Feb 2024 06:13:25 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/22/Tinderbox-is-feeling-lon.html">#</a></span> <p>I've been neglecting Tinderbox this week, which is a mistake since I'm participating in the <a href="https://forum.eastgate.com/t/tinderbox-meetup-saturday-24-feb-2024-blogging-and-weblogging-with-tinderbox/" title="Tinderbox Meetup Saturday 24 Feb. 2024: Blogging and Weblogging with Tinderbox - Tinderbox &amp; Storyspace Events - Tinderbox Forum">Blogging with Tinderbox meetup</a> on Saturday. I'll be leaning on <a href="https://nice-marmot.net/" title="Main Page">Dave</a> for the meat of the thing, since he's been putting a lot of thought into the topic recently. I've gotten this Tinderbox file to the point where I don't need to think about it much, so I haven't. My thoughts have been more around which tool to use for blogging, which sometimes means Tinderbox and sometimes doesn't. Should be interesting.</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/22.html</guid>
+</item>
+<item>
+<title>Monday, February 19, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/19.html</link>
+<pubDate>Mon, 19 Feb 2024 05:53:07 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/19/Why-no-databases.html">#</a></span> <p>I used to love databases. I put everything in them. I've used SQL Server, Postgres, Oracle, Access, MySQL, etc. Loved them. But now, for some reason, I avoid them and I'm not sure why. Maybe it's because of my infatuation with plain text and associated tooling. Maybe it's fear of "lock-in". Just an observation. I wonder how limiting this is in what I decide to build.</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/19/jackbaty-com-or-jack-bat.html">#</a></span> <p>Just for fun, I recently put up a sort of landing page at <a href="https://jackbaty.com">jackbaty.com</a>. It's just an org-mode file exported as HTML with the most basic CSS I could muster that also makes the page readable. I plan to keep a page like this around, but I'm thinking about moving it from jackbaty.com to jack.baty.net. I've been slowly moving from a bunch of custom domains to putting everything under subdomains of <a href="https://baty.net">baty.net</a>. I need at least one totally static site under which I can drop documents and files that isn't controlled by a CMS of any kind. I have <a href="https://static.baty.net">static.baty.net</a> now, so maybe some version of that would work? Still noodling on it.</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+	<img src="https://daily.baty.net/img/small/moving-parts.png" alt="No, you host it" class="sideImage">
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/19/No-you-host-it.html">#</a></span> <p>Server issues this morning have put me in a "No, you host it!" mood. Some days I love tinkering with servers and deployment scripts and such. Other days (today, for example) I never want to touch a server again.</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/19.html</guid>
+</item>
+<item>
+<title>Sunday, February 18, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/18.html</link>
+<pubDate>Sun, 18 Feb 2024 05:32:05 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+	<img src="https://daily.baty.net/img/small/flickr.png" alt="Still considering Flickr" class="sideImage">
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/18/Still-considering-Flickr.html">#</a></span> <p>I recently wrote about my <a href="https://baty.net/journal/2024/02/16/flickr-subscription-decision" title="Jack Baty | Flickr subscription decision">upcoming Flickr subscription</a> and whether I would renew after 20 years. I find <a href="https://glass.photo/jbaty" title="Jack Baty on Glass Photography Community">Glass.photo</a> to be a better visual experience and the conversations there are more frequent and of higher quality. But really they are two different things for me. Glass is where I showcase my photography and Flickr is where I share my photos. The difference is subtle, but meaningful, which is why I'll probably keep both. I'm reminded of PetaPixel's recent post: <a href="https://petapixel.com/2023/08/07/10-reasons-why-flickr-is-the-best-site-on-the-internet-for-photographers/">10 Reasons Why Flickr is the Best Site on the Internet for Photographers</a>.</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/18/Software-obligations.html">#</a></span> <p>Why do I feel an obligation to software? There are apps that I've used for quite a long time and for some reason I feel obligated to continue using them. <a href="https://eastgate.com/Tinderbox" title="Eastgate: serious hypertext ">Tinderbox</a>, <a href="https://tiddlywiki.com">TiddlyWiki</a>, and <a href="https://www.gnu.org/software/emacs/" title="GNU Emacs - GNU Project">Emacs</a> are good examples. They're all great, but I rarely need the power afforded me and it's not always worth the added complexity. But I tinker, you know. They are part of my muscle memory. I have many (many!) documents that I created using each of them. I suspect that maybe I feel this way because they're also part of my identity. I've written about them often. I could simply stop using any of them and who would care? No one, probably, but since I can't seem to shut up about anything I would still feel guilty, somehow.</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/18/Paper.html">#</a></span> <p>I could easily (easily!) run my life using a paper notebook and perhaps a few index cards. Days like today I think about doing just that. Maybe I will.</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/18/The-problem-is-having-to.html">#</a></span> <p>I'm still not working, meaning I have a lot of time my hands. Having so much time offers me the opportunity to sit and stare at things and over-think everything about them. Where should I document the fact that I upgraded Sonoma on the MBP to 14.3.1 this morning? The correct answer is, "Who gives a shit?!". Spending hours and hours figuring out how and where to document all the minutiae in my life is an unnecessary and life-wasting routine. I need to go out and do interesting and meaningful things so that I no longer have the time nor inclination to document everything all the time.</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/18.html</guid>
+</item>
+<item>
+<title>Saturday, February 17, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/17.html</link>
+<pubDate>Sat, 17 Feb 2024 06:26:41 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/17/Feeling-trapped.html">#</a></span> <p>It bothers me a little that moving the content here to any other platform would be a large project that I don't want to ever have to tackle. It limits my enjoyment of using Tinderbox for blogging. But it sure is fun while I'm here, so why do I trouble myself by thinking about moving stuff?</p> 
+
+</div>
+
+
+
+
+
+
+
+	<h3><a href="https://daily.baty.net/posts/2024/02/17/Yet-another-reason-I-use.html">(Yet) another reason I use Tinderbox</a></h3>
+
+<section>
+
+
+	<img src="https://daily.baty.net/img/small/tinderboxicon.png" alt="(Yet) another reason I use Tinderbox" class="sideImage">
+
+	<p><a href="https://nice-marmot.net/Archives/2024/February_2024.html#note_1807" title="Why I use Tinderbox. Reason #46 - Jack Baty&#39;s Weblog Archive (2000-2020)">Dave Rogers writes</a> about a small update to <a href="https://eastgate.com/Tinderbox" title="Why I use Tinderbox. Reason #46 - Jack Baty&#39;s Weblog Archive (2000-2020)">Tinderbox</a> made recently based on a conversation during a short video call between himself, me, <a href="https://www.markbernstein.org/" title="Mark Bernstein">Mark Bernstein</a> (Tinderbox's author), and <a href="https://www.linkedin.com/in/privacyshaman/" title="Michael Becker - Identity Praxis, Inc. | LinkedIn">Michael Becker</a>. Dave and I both mentioned small nits we had to pick with one of Tinderbox's tools. I even said that it was only a minor inconvenience and I felt like I was whining by even mentioning it. And yet, several days later, a new Tinderbox beta arrived with improvements solving both of our issues.  I've been talking about Eastgate's exceptional support and responsiveness since <a href="https://archive.baty.net/2007/why-i-use-tinderbox-reason-46/" title="Why I use Tinderbox. Reason #46 - Jack Baty&#39;s Weblog Archive (2000-2020)">at least 2007</a> and it remains one reason why Tinderbox is worth every penny.</p>
+	
+</section>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/17.html</guid>
+</item>
+<item>
+<title>Friday, February 16, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/16.html</link>
+<pubDate>Fri, 16 Feb 2024 05:28:06 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/16/I-ll-be-over-on-Baty-net.html">#</a></span> <p>I need a change of pace, and I've been overthinking this blog, so I'll be posting over at <a href="https://baty.net">baty.net</a> today.</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/16.html</guid>
+</item>
+<item>
+<title>Thursday, February 15, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/15.html</link>
+<pubDate>Thu, 15 Feb 2024 05:18:26 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/15/Nostalgia.html">#</a></span> <p>What if it's not just nostalgia? What if it actually used to be better?</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/15.html</guid>
+</item>
+<item>
+<title>Wednesday, February 14, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/14.html</link>
+<pubDate>Wed, 14 Feb 2024 06:05:55 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/14/Is-it-canon.html">#</a></span> <p>I've never been into anything hard enough to argue over what might be canon or not.</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/14/Liking-too-many-things.html">#</a></span> <p>I like too many things. For example,  I like <a href="https://eastgate.com/Tinderbox">Tinderbox</a> and <a href="https://www.gnu.org/software/emacs/" title="GNU Emacs - GNU Project">Emacs</a> equally for keeping a Daybook. It's maddening to try and choose just one.</p> 
+
+</div>
+
+
+
+
+
+
+
+	<h3><a href="https://daily.baty.net/posts/2024/02/14/Tinderbox-note-icons.html">Tinderbox note icons</a></h3>
+
+<section>
+
+
+	<p>One of Tinderbox's many little unsung features are the small note icons that appear next to each note.</p>
+<img src="/img/2024/20240214-tinderbox-note.png" alt="Tinderbox notes list">
+<p>They pack a ton of useful info into a tiny space. They show whether a note contains text, how much, and if there are inbound or outbound links. They also "yellow" with age, so I can see at a glance which are new and which are old. It's subtle, clever, and very useful.</p>
+	
+</section>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/14.html</guid>
+</item>
+<item>
+<title>Tuesday, February 13, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/13.html</link>
+<pubDate>Tue, 13 Feb 2024 05:45:28 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/13/On-the-fence.html">#</a></span> <p>I am sitting on the fence between plain text and GUI-licious tools. I'm typing this in <a href="https://eastgate.com/Tinderbox">Tinderbox</a> and spending lots of time in my Daybook.tbx file. I've reacquainted myself with <a href="https://www.omnigroup.com/omnifocus/">OmniFocus</a> and have even fired up the new version of <a href="https://zengobi.com/curio/">Curio</a>. On the other hand, I remain deep into Emacs, but have also been using <a href="https://mutt.org">Mutt</a> for email and <a href="https://taskwarrior.org/">Taskwarrior</a> for tasks and now I'm infatuated with <a href="https://xwmx.github.io/nb/">nb</a>. So you can see my dilemma. I love so many things about all of them that I never want to give any of them up completely. So I continue to scatter my stuff among a dozen apps and end up frustrated. I'm still having fun, though, so I guess it's worth it?</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/13/Good-vs-Didn-t-Like-It.html">#</a></span> <p>When I like something, I tend to say, "It's really good!" but when I don't like something I try to say, "I didn't care for it." rather than "It's terrible!" So, I treat positive things as objective and negative things as subjective. I think that's ok.</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/13.html</guid>
+</item>
+<item>
+<title>Monday, February 12, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/12.html</link>
+<pubDate>Mon, 12 Feb 2024 10:58:30 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/12/Todo-Stop-putting-todos-.html">#</a></span> <p>It's nice to have options, but right now I've got todos in Reminders, Things, OmniFocus, Taskwarrior, nb, org-mode, and a paper notebook. My only task right now should be: "Pick one todo app and move all your shit into it."</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/12.html</guid>
+</item>
+<item>
+<title>Sunday, February 11, 2024</title>
+<link>https://daily.baty.net/posts/2024/02/11.html</link>
+<pubDate>Sun, 11 Feb 2024 05:40:07 -0500</pubDate>
+<description><![CDATA[
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/11/Sportsball.html">#</a></span> <p>Proudly bragging that you don't follow sports doesn't make you better than anyone.</p> 
+
+</div>
+
+
+
+
+
+
+<div class="postNoTitle">
+
+
+<span class="permalinkHash"><a href="https://daily.baty.net/posts/2024/02/11/Motivation-to-photograph.html">#</a></span> <p>It's not great when one's biggest motivation to make photos is having only a few frames left on the roll.</p> 
+
+</div>
+
+
+
+
+    ]]></description>
+<guid>https://daily.baty.net/posts/2024/02/11.html</guid>
+</item>
+
+</channel>
+
+</rss>

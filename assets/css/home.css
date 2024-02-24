@@ -1,0 +1,148 @@
+.main {
+  max-width: 45rem;
+  margin: auto;
+}
+
+.home-grid {
+  display: grid;
+  list-style: none;
+  grid-gap: 1.5rem;
+  line-height: 0;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-flow: dense;
+}
+.home-grid li {
+  position: relative;
+  --cols: 1;
+  --rows: 1;
+
+  overflow: hidden;
+  background: #000;
+  line-height: 0;
+}
+.home-grid li:first-child {
+  --cols: 2;
+  --rows: 2;
+}
+.home-grid li:nth-child(5) {
+  --cols: 2;
+}
+.home-grid li:nth-child(6) {
+  --rows: 2;
+}
+.home-grid li:nth-child(7) {
+  --cols: 2;
+}
+.home-grid a {
+  display: block;
+  height: 10rem;
+}
+.home-grid img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .3s;
+}
+.home-grid figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: #fff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  line-height: 1;
+  text-align: center;
+  background: rgba(0,0,0, .5);
+}
+
+@media screen and (min-width: 45em) {
+  .home-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .home-grid li {
+    grid-column-start: span var(--cols);
+    grid-row-start: span var(--rows);
+  }
+  .home-grid a {
+    padding-bottom: 52.65%;
+  }
+}
+
+article.post.home {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  /* padding: 2rem; */
+  box-shadow: var(--card-box-shadow);
+}
+
+.home .post-title {
+  font-size: 0.85em;
+}
+
+.recent-posts {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--color-grey);
+  background-color: var(--color-light);
+
+}
+
+.recent-posts h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.recent-posts h2 a:hover {
+  text-decoration: underline;
+}
+.recent-posts li {
+  margin: 0.7em;
+}
+
+
+
+.recent-posts .post-excerpt header {
+  margin-bottom: 0;
+}
+
+
+.more-posts {
+  margin-top: 15px;
+  font-weight: 400;
+  width: 95%;
+  text-align: right;
+}
+.more-posts a {
+  color: var(--color-link);
+}
+
+header.welcome {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.welcome h1 {
+  font-size: 2rem;
+}
+.welcome p {
+  font-size: 1.5rem;
+}
+
+.post-header.h1 {
+  margin-top: 0;
+  padding: 1rem;
+  background-color: #fbfbfc;
+  border-bottom: 1px solid rgb(237, 240, 243);
+}
+
+ul.note, div.post.text, .note-summary {
+  margin: 2rem;
+}

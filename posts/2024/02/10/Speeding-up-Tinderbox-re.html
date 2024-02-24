@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="//fonts.googleapis.com/css?family=Ubuntu:400,500i,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../../assets/css/styles.css">
+<link rel="stylesheet" href="../../../../../assets/css/custom.css?never">
+
+<title>Speeding up Tinderbox rendering times - Jack Baty Daily</title>
+
+
+
+
+   <link rel="stylesheet" href="../../../../../assets/css/post.css">
+	</head>
+  <body>
+	<div class="hero-image">
+  <div class="hero-text">
+    <h1><a href="/">Jack Baty Daily</a></h1>
+    <h3>Daily notes from Jack about everything</h3>
+  </div>
+<img id="extra-image" src="/img/headers/jack-and-iphone.png" />
+</div>
+<header class="header">
+    <nav class="menu">
+		<a href="../../../../../index.html">Home</a>
+		<a href="../../../../../about.html">About</a>
+		<a href="../../../../../archives.html">Archives</a>
+		<a href="https://wiki.baty.net">Wiki</a>
+		<a href="https://baty.net">baty.net</a>
+   	<a rel="me" href="https://social.lol/@jbaty"><img src="/img/icons/mastodon-icon.svg" width="16px" title="@jbaty on Mastodon"></a>
+
+		<a class="icon-font" href="../../../../../allposts.xml" title="RSS Feed"><svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg></a>
+</nav>
+</header>
+    <main class="main">
+
+		<article class="post">
+  <header class="post-header h1">
+<h1 class="post-title">Speeding up Tinderbox rendering times</h1>
+	<time>
+		<div class="note-excerpt-date"><a href="../10.html">Saturday, 10 February 2024</a> 		
+		
+		</div>
+	</time>
+</header>
+<div class="post text">
+
+
+	<img src="/img/small/tinderboxicon.png" alt="Speeding up Tinderbox rendering times" class="sideImage">
+
+
+	<p>This blog takes about 20 seconds to fully render out of Tinderbox. That's not long, but it's too long, especially while I'm composing a post and want to see what it's going to look like 75 times before I publish it 😆. I tend to type->render->edit->re-render->repeat so saving a few seconds each time is worth the trouble.</p>
+ <p>It occurred<a href="https://nice-marmot.net/"> to me afte</a>r chatting with Dave Rogers yesterday that most of the content only needs publishing after global template updates. There are only a handful of documents that change with each post, e.g. the home page, the post itself, and the archives page. </p>
+<p>I created a stamp that toggles the $HTMLDontExport and $HTMLExportChildren flags so that only relevant content is rendered when exporting. I have a container of aliases that list the outline items that don't need to be exported each time and I toggle those off during the draft phase. Then I toggle them on for a final export before pushing the changes live.</p>
+<p>I could probably create some sort of fancy action code that would know what to do. Maybe I will, but for now this does what I need.</p>
+<p>The export now takes under two seconds. (It's the /archives.html page that's the killer, so I wait until the last minute to render that one). Show me another blogging tool that makes something like this so easy.</p>
+
+
+<footer class="post-footer"> </footer>
+</article>
+
+<div id="reply-by-email">
+<a class="reply-by-email" href="mailto:jack@baty.net?subject=[daily.baty.net] Speeding up Tinderbox rendering times">✍️ Reply by email</a>
+</div>
+</article>
+
+    </main>
+	<!--  Tinderbox: Footer -->
+<footer class="footer">
+	<p>© Jack Baty 2013-2024 | 
+	<span>Made with ♥ in west Michigan using <a href="http://www.eastgate.com/Tinderbox/">Tinderbox</a> (v9.7.3)</p>
+</footer>
+
+<script src="https://tinylytics.app/embed/_J95xZgyF9gfJjQW5kAF.js" defer></script>
+
+
+   
+  </body>
+</html>
